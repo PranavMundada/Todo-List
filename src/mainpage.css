@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --mainpage-header:#0D1520;
+    --mainpage-title:#C2E6FF    ;
+    --mainpage-sidebar:#0D1520;
+    --mainpage-sidebarText:white;
+    --mainpage:#0D2847;
+    --tododiv:#E0FBFC;
+    --mainpage-border:#104D87;
+    --mainpage-btn:#004074;
+    --mainpage-btntext:#70B8FF;
+    --tododiv:#70B8FF;
+    --tododiv-btn:#205D9E;
+    --tododiv-btncolor:#70B8FF;
+}
+
+html,body{
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    font-size: 40px;
+    font-weight: 800;
+    border: 2px solid var(--mainpage-border);
+    flex: 1;
+    background-color: var(--mainpage-header);
+    color: var(--mainpage-title);
+}
+
+h1{
+    margin: 10px 0px 10px 40px;
+}
+
+.mainPage{
+    display:flex;
+    flex: 10;
+}
+
+.sidebar{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid var(--mainpage-border);
+    font-size: 30px;
+    background-color: var(--mainpage-sidebar);
+    color: var(--mainpage-sidebarText);
+}
+
+.sidebarp1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex:5;
+    margin-left: 50px;
+}
+
+#projects{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 50px;
+    margin: 0px 0px 0px 50px
+}
+
+#projects button{
+    margin: 10px;
+    font-size: 20px;
+    height: 40px;
+    width: 120px;
+}
+
+.sidebar button{
+    border-radius: 20px;
+    color:var(--mainpage-btntext) ;
+    margin: 20px;
+    border: none;
+    background-color:var(--mainpage-btn);
+    font-size: 30px;
+    width: 150px;
+    height: 50px;
+}
+
+.sidebarp1 button:hover{
+    color:var(--mainpage-header) ;
+    margin: 20px;
+    border: 5px solid var(--mainpage-border);
+    background-color:var(--mainpage-btntext);
+    font-size: 30px;
+    width: 150px;
+    height: 50px;
+}
+
+.sidebarp2 button:hover{
+    color:var(--mainpage-header) ;
+    margin: 20px;
+    border: 5px solid var(--mainpage-border);
+    background-color:var(--mainpage-btntext);
+    font-size: 30px;
+}
+
+.todoblock:hover{
+    border: 10px solid var(--mainpage);
+}
+
+.sidebar p{
+    margin: 20px;
+    border: none;
+    background-color: white;
+    font-size: 30px;
+}
+
+.projects{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.sidebarp2{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebarp2 button{
+    border: 2px solid black;
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+}
+
+#content{
+    background-color: var(--mainpage);
+    flex: 5;
+    border: 2px solid var(--mainpage-border);
+}
+
+.notediv{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#dialogBox{
+    border:    2px solid  var(--mainpage-header);
+}
+
+.headerDialog{
+    background-color: var(--mainpage-header);
+    color: var(--mainpage-title);
+    border: 2px solid var(--mainpage-border);
+}
+
+h2{
+    margin: 10px;
+}
+
+.sidebarDialog{
+    background-color: var(--mainpage-header);
+    border: 2px solid var(--mainpage-border);
+}
+
+.sidebarDialog button{
+    background-color: var(--mainpage-btn);
+    color: var(--mainpage-btntext);
+}
+
+#contentDialog{
+    background-color: var(--mainpage-header);
+    border: 2px solid var(--mainpage-border);
+    color: #E0FBFC;
+}

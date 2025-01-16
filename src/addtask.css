@@ -1,0 +1,100 @@
+#dialogBox{
+    height: 500px;
+    width: 900px;
+    margin: auto;
+}
+
+.dialogDiv{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.headerDialog{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.mainPageDialog{
+    flex: 7;
+    display: flex;
+}
+
+.sidebarDialog{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebarDialog button{
+    margin: 20px;
+    border: none;
+    font-size: larger;
+}
+
+#contentDialog{
+    
+    flex:4;
+}
+
+.p{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+
+#todoform{
+    height: 100%;
+}
+.p1{
+    flex:5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#title{
+    border: none;
+    height: 30px;
+    margin: 10px;
+}
+
+#projecthead{
+    border: none;
+    height: 30px;
+    margin: 10px;
+}
+
+#details{
+    border:none;
+    height: 50px;
+    margin: 10px;
+}
+.p2{
+    flex: 2;
+    display: flex;
+    align-items: center;
+}
+
+.p3{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.note{
+    display: flex;
+    flex-direction: column;
+}
+
+#closeDialog{
+    padding: 5px;
+    margin: 20px;
+}
