@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script defer src="main.js"></script></head>
+<body>
+    <div class="header">
+        <h1>Todo List</h1>
+    </div>
+    <div class="mainPage">
+        <div class="sidebar">
+            <div class="sidebarp1">
+                <button type="button" id="home">Home</button>
+                <button type="button" id="today">Today</button>
+                <button type="button" id="week">Week</button>
+                <button type="button" id="project">Projects</button>
+                <div id="projects">
+                </div>
+                <button type="button" id="notes">Notes</button>
+            </div>
+            <div class="sidebarp2">
+                <button type="button" id="addTask">+</button>
+            </div>
+        </div>
+        <div id="content"></div>
+    </div>
+    <dialog id="dialogBox">
+        <div class="dialogDiv">
+            <div class="headerDialog">
+                <h2>Create a new...</h2>
+                <button id="closeDialog">X</button>
+            </div>
+            <div class="mainPageDialog">
+                <div class="sidebarDialog">
+                    <button type="button" id="todoDialog">Todo</button>
+                    <button type="button" id="noteDialog">Note</button>
+                </div>
+                <div id="contentDialog"></div>
+            </div>
+        </div>
+    </dialog>
+</body>
+</html>
